@@ -65,12 +65,12 @@ function game(userChoice) {
 		case "rockpaper":
 		case "paperscissors":
 		case "scissorsrock":
-			win(userChoice, computerChoice);
+			lose(userChoice, computerChoice);
 			break;	
 		case "rockrock":
 		case "paperpaper":
 		case "scissorsscissors":
-			win(userChoice, computerChoice);
+			draw(userChoice, computerChoice);
 			break;	
 	}
 }
